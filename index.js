@@ -24,6 +24,11 @@ function promptUser() {
         },
         {
             type: "input",
+            name: "emailManager",
+            message: "Please enter the email of the manager: "
+        },
+        {
+            type: "input",
             name: "officeNumberManager",
             message: "Please enter the office number of manager: "
         },
@@ -44,6 +49,11 @@ function promptUser() {
         },
         {
             type: "input",
+            name: "emailEngineer1",
+            message: "Please enter the email of the first engineer: "
+        },
+        {
+            type: "input",
             name: "githubEngineer1",
             message: "Please enter the GitHub username of the first engineer: "
         },
@@ -61,6 +71,11 @@ function promptUser() {
             type: "input",
             name: "titleEngineer2",
             message: "Please enter the title of the second engineer: "
+        },
+        {
+            type: "input",
+            name: "emailEngineer2",
+            message: "Please enter the email of the second engineer: "
         },
         {
             type: "input",
@@ -85,6 +100,11 @@ function promptUser() {
         },
         {
             type: "input",
+            name: "emailEngineer3",
+            message: "Please enter the email of the third engineer: "
+        },
+        {
+            type: "input",
             name: "githubEngineer3",
             message: "Please enter the GitHub username of the third engineer: "
         },
@@ -102,6 +122,11 @@ function promptUser() {
             type: "input",
             name: "titleIntern",
             message: "Please enter the title of intern:"
+        },
+        {
+            type: "input",
+            name: "emailIntern",
+            message: "Please enter the email of the intern: "
         },
         {
             type: "input",
@@ -126,24 +151,3 @@ async function init() {
 }
 
 init();
-
-// startProgram();
-// async function startProgram() {
-//     let { email, id } = await promptForInfo()
-//     console.log(data);
-// }
-// async function promptForInfo() {
-//     return inquirer.prompt([
-//         {
-//             message: "What is your email?",
-//             name: "name",
-//             type: "input"
-//         },
-//         {
-//             message: "What is your ID?",
-//             name: "id",
-//             type: "input"
-//         },
-//     ])
-// }
-// module.exports = promptforInfo;

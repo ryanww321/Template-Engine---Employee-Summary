@@ -30,16 +30,16 @@ function generateHTML(answers) {
 
                 <div class="row justify-content-center">
                     <div class="col align-self-start">
-                        <div class="card border-dark mb-4" style="width: 19rem;">
+                        <div class="card border-dark mb-4" style="width: 19rem;height: 19rem;">
                             <div class="card-header">
                                 <h5>${answers.nameManager}</h5>
-                                <h5><i class="fas fa-mug-hot"></i> Manager</h5>
+                                <h5><i class="fas fa-mug-hot"></i> ${answers.titleManager ? answers.titleManager : " "}</h5>
                             </div>
                             <div class="card-body text-dark">
                                 <div class="card" style="width: 16rem;">
                                     <ul class="list-group list-group-flush">
                                     <li class="list-group-item" style="text-align:left"><strong>ID: </strong>${answers.idManager ? answers.idManager : " "}</li>
-                                    <li class="list-group-item" style="text-align:left"><strong>Title: </strong>${answers.titleManager ? answers.titleManager : " "}</li>
+                                    <li class="list-group-item" style="text-align:left"><strong>Email: </strong>${answers.emailManager ? answers.emailManager : " "}</li>
                                     <li class="list-group-item" style="text-align:left"><strong>Office: </strong>${answers.officeNumberManager ? answers.officeNumberManager : " "}
                                     </li>
                                     </ul>
@@ -49,17 +49,17 @@ function generateHTML(answers) {
                     </div>
 
                     <div class="col align-self-start">
-                        <div class="card border-dark mb-4" style="width: 19rem;">
+                        <div class="card border-dark mb-4" style="width: 19rem;height: 19rem;">
                             <div class="card-header">
                                 <h5>${answers.nameEngineer1}</h5>
-                                <h5><i class="fas fa-laptop"></i> Engineer</h5>
+                                <h5><i class="fas fa-laptop"></i> ${answers.titleEngineer1}</h5>
                             </div>
                             <div class="card-body text-dark">
                                 <div class="card" style="width: 16rem;">
                                     <ul class="list-group list-group-flush">
                                     <li class="list-group-item" style="text-align:left"><strong>ID: </strong>${answers.idEngineer1}</li>
-                                    <li class="list-group-item" style="text-align:left"><strong>Title: </strong>${answers.titleEngineer1}</li>
-                                    <li class="list-group-item" style="text-align:left"><strong>Github: </strong>${answers.githubEngineer1}</li>
+                                    <li class="list-group-item" style="text-align:left"><strong>Email: </strong>${answers.emailEngineer1}</li>
+                                    <li class="list-group-item" style="text-align:left"><strong>GitHub: </strong>${answers.githubEngineer1}</li>
                                     </ul>
                                 </div>
                             </div>
@@ -67,17 +67,17 @@ function generateHTML(answers) {
                     </div>
 
                     <div class="col align-self-start">
-                        <div class="card border-dark mb-4" style="width: 19rem;">
+                        <div class="card border-dark mb-4" style="width: 19rem;height: 19rem;">
                             <div class="card-header">
                                 <h5>${answers.nameEngineer2}</h5>
-                                <h5><i class="fas fa-laptop"></i> Engineer</h5>
+                                <h5><i class="fas fa-laptop"></i> ${answers.titleEngineer2}</h5>
                             </div>
                             <div class="card-body text-dark">
                                 <div class="card" style="width: 16rem;">
                                     <ul class="list-group list-group-flush">
                                     <li class="list-group-item" style="text-align:left"><strong>ID: </strong>${answers.idEngineer2}</li>
-                                    <li class="list-group-item" style="text-align:left"><strong>Title: </strong>${answers.titleEngineer2}</li>
-                                    <li class="list-group-item" style="text-align:left"><strong>Github: </strong>${answers.githubEngineer2}</li>
+                                    <li class="list-group-item" style="text-align:left"><strong>Email: </strong>${answers.emailEngineer2}</li>
+                                    <li class="list-group-item" style="text-align:left"><strong>GitHub: </strong>${answers.githubEngineer2}</li>
                                     </ul>
                                 </div>
                             </div>
@@ -85,17 +85,17 @@ function generateHTML(answers) {
                     </div>
 
                     <div class="col align-self-start">
-                        <div class="card border-dark mb-4" style="width: 19rem;">
+                        <div class="card border-dark mb-4" style="width: 19rem;height: 19rem;">
                             <div class="card-header">
                                 <h5>${answers.nameEngineer3}</h5>
-                                <h5><i class="fas fa-laptop"></i> Engineer</h5>
+                                <h5><i class="fas fa-laptop"></i> ${answers.titleEngineer3}</h5>
                             </div>
                             <div class="card-body text-dark">
                                 <div class="card" style="width: 16rem;">
                                     <ul class="list-group list-group-flush">
                                     <li class="list-group-item" style="text-align:left"><strong>ID: </strong>${answers.idEngineer3}</li>
-                                    <li class="list-group-item" style="text-align:left"><strong>Title: </strong>${answers.titleEngineer3}</li>
-                                    <li class="list-group-item" style="text-align:left"><strong>Github: </strong>${answers.githubEngineer3}</li>
+                                    <li class="list-group-item" style="text-align:left"><strong>Email: </strong>${answers.emailEngineer3}</li>
+                                    <li class="list-group-item" style="text-align:left"><strong>GitHub: </strong>${answers.githubEngineer3}</li>
                                     </ul>
                                 </div>
                             </div>
@@ -103,17 +103,17 @@ function generateHTML(answers) {
                     </div>
 
                     <div class="col align-self-start">
-                        <div class="card border-dark mb-4" style="width: 19rem;">
+                        <div class="card border-dark mb-4" style="width: 19rem;height: 19rem;">
                             <div class="card-header">
                                 <h5>${answers.nameIntern}</h5>
-                                <h5><i class="fas fa-user-graduate"></i> Intern</h5>
+                                <h5><i class="fas fa-user-graduate"></i> ${answers.titleIntern}</h5>
                             </div>
                             <div class="card-body text-dark">
                                 <div class="card" style="width: 16rem;">
                                     <ul class="list-group list-group-flush">
                                     <li class="list-group-item" style="text-align:left"><strong>ID: </strong>${answers.idIntern}</li>
-                                    <li class="list-group-item" style="text-align:left"><strong>Title: </strong>${answers.titleIntern}</li>
-                                    <li class="list-group-item" style="text-align:left"><strong>Github: </strong>${answers.schoolIntern}</li>
+                                    <li class="list-group-item" style="text-align:left"><strong>Email: </strong>${answers.emailIntern}</li>
+                                    <li class="list-group-item" style="text-align:left"><strong>School: </strong>${answers.schoolIntern}</li>
                                     </ul>
                                 </div>
                             </div>
