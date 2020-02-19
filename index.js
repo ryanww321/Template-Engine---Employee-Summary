@@ -15,7 +15,7 @@ function promptUser() {
         {
             type: "input",
             name: "idManager",
-            message: "Pleae enter the ID of the manager: "
+            message: "Please enter the ID of the manager: "
         },
         {
             type: "input",
@@ -118,7 +118,7 @@ async function init() {
         const answers = await promptUser();
 
         const html = generateHTML(answers);
-        await writeFileAsync("index.html", html);
+        await writeFileAsync("./output/team.html", html);
 
     } catch (err) {
         console.log(err);

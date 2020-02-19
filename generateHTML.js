@@ -39,7 +39,7 @@ function generateHTML(answers) {
                                 <div class="card" style="width: 16rem;">
                                     <ul class="list-group list-group-flush">
                                     <li class="list-group-item" style="text-align:left"><strong>ID: </strong>${answers.idManager ? answers.idManager : " "}</li>
-                                    <li class="list-group-item" style="text-align:left"><strong>Email: </strong>${answers.titleManager ? answers.titleManager : " "}</li>
+                                    <li class="list-group-item" style="text-align:left"><strong>Title: </strong>${answers.titleManager ? answers.titleManager : " "}</li>
                                     <li class="list-group-item" style="text-align:left"><strong>Office: </strong>${answers.officeNumberManager ? answers.officeNumberManager : " "}
                                     </li>
                                     </ul>
@@ -58,7 +58,7 @@ function generateHTML(answers) {
                                 <div class="card" style="width: 16rem;">
                                     <ul class="list-group list-group-flush">
                                     <li class="list-group-item" style="text-align:left"><strong>ID: </strong>${answers.idEngineer1}</li>
-                                    <li class="list-group-item" style="text-align:left"><strong>Email: </strong>${answers.titleEngineer1}</li>
+                                    <li class="list-group-item" style="text-align:left"><strong>Title: </strong>${answers.titleEngineer1}</li>
                                     <li class="list-group-item" style="text-align:left"><strong>Github: </strong>${answers.githubEngineer1}</li>
                                     </ul>
                                 </div>
@@ -76,7 +76,7 @@ function generateHTML(answers) {
                                 <div class="card" style="width: 16rem;">
                                     <ul class="list-group list-group-flush">
                                     <li class="list-group-item" style="text-align:left"><strong>ID: </strong>${answers.idEngineer2}</li>
-                                    <li class="list-group-item" style="text-align:left"><strong>Email: </strong>${answers.titleEngineer2}</li>
+                                    <li class="list-group-item" style="text-align:left"><strong>Title: </strong>${answers.titleEngineer2}</li>
                                     <li class="list-group-item" style="text-align:left"><strong>Github: </strong>${answers.githubEngineer2}</li>
                                     </ul>
                                 </div>
@@ -94,7 +94,7 @@ function generateHTML(answers) {
                                 <div class="card" style="width: 16rem;">
                                     <ul class="list-group list-group-flush">
                                     <li class="list-group-item" style="text-align:left"><strong>ID: </strong>${answers.idEngineer3}</li>
-                                    <li class="list-group-item" style="text-align:left"><strong>Email: </strong>${answers.titleEngineer3}</li>
+                                    <li class="list-group-item" style="text-align:left"><strong>Title: </strong>${answers.titleEngineer3}</li>
                                     <li class="list-group-item" style="text-align:left"><strong>Github: </strong>${answers.githubEngineer3}</li>
                                     </ul>
                                 </div>
@@ -112,7 +112,7 @@ function generateHTML(answers) {
                                 <div class="card" style="width: 16rem;">
                                     <ul class="list-group list-group-flush">
                                     <li class="list-group-item" style="text-align:left"><strong>ID: </strong>${answers.idIntern}</li>
-                                    <li class="list-group-item" style="text-align:left"><strong>Email: </strong>${answers.titleIntern}</li>
+                                    <li class="list-group-item" style="text-align:left"><strong>Title: </strong>${answers.titleIntern}</li>
                                     <li class="list-group-item" style="text-align:left"><strong>Github: </strong>${answers.schoolIntern}</li>
                                     </ul>
                                 </div>
